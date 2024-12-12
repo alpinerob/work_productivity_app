@@ -1,0 +1,27 @@
+name: work_productivity_app
+description: A work productivity application for internal communication and task management.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.0
+  google_sign_in: ^5.4.3
+  table_calendar: ^3.0.8
+  speech_to_text: ^5.8.0
+  share_plus: ^6.3.0
+  googleapis: ^10.0.0
+  googleapis_auth: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
